@@ -30,7 +30,7 @@ on init
     setprop sys.usb.configfs 1
 
 on property:ro.boot.usbcontroller=*
-    setprop sys.usb.controller ${ro.boot.usbcontroller}
+    setprop sys.usb.controller a600000.dwc3
     write /sys/class/udc/${ro.boot.usbcontroller}/device/../mode peripheral
 
 on fs
