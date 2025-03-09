@@ -118,11 +118,22 @@ PRODUCT_PACKAGES += \
     libaudioroute \
     libhdmiedid \
     libhfp \
+    libsndmonitor \
+    libtinycompress
+
+PRODUCT_PACKAGES += \
+    libaudiopreprocessing \
+    libbundlewrapper \
+    libdownmix \
+    libdynproc \
+    libeffectproxy \
+    libldnhncr \
+    libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libsndmonitor \
-    libvolumelistener \
-    libtinycompress 
+    libreverbwrapper \
+    libvisualizer \
+    libvolumelistener
 
 PRODUCT_PACKAGES += \
     liba2dpoffload
