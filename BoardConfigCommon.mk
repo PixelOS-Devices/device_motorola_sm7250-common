@@ -85,10 +85,6 @@ TARGET_MODULE_ALIASES += \
     wsa883x_dlkm.ko:audio_wsa883x.ko \
     wsa_macro_dlkm.ko:audio_wsa_macro.ko
 
-# Kernel modules - WLAN
-TARGET_MODULE_ALIASES += \
-    wlan.ko:qca_cld3_wlan.ko
-
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := lito
