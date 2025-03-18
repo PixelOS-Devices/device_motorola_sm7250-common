@@ -41,7 +41,6 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.memcg=1 \
     lpm_levels.sleep_disabled=1 \
     service_locator.enable=1 \
-    androidboot.usbcontroller=a600000.dwc3 \
     swiotlb=2048 \
     loop.max_part=7 \
     cgroup.memory=nokmem,nosocket \
