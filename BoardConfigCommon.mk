@@ -16,6 +16,8 @@
 
 COMMON_PATH := device/motorola/sm7250-common
 
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true 
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
